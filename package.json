@@ -1,0 +1,24 @@
+{
+  "name": "nso-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ko-tori/nso-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ko-tori/nso-game/issues"
+  },
+  "homepage": "https://github.com/ko-tori/nso-game#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "osu-parser": "https://github.com/ko-tori/osu-parser/tarball/master"
+  }
+}
