@@ -39,6 +39,6 @@ app.get('/parseskin/:file', function(req, res) {
   });
 });
 
-server.listen(process.env.PORT, function() {
+server.listen(process.env.PORT || 3000, function() {
   console.log('Running...');
 });
